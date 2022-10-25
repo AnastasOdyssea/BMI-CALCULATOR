@@ -1,4 +1,17 @@
 body{
-    margin: 10px;
+    
     border: 1px black solid;
+    height: 300px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 100px;
+    vertical-align: middle;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+
+
+}
+#age,#height,#weight{
+height: 30px;
 }
