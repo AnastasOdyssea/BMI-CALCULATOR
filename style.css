@@ -1,14 +1,16 @@
 body{
     
     border: 1px black solid;
+    border-radius: 10px;
     height: 300px;
-    width: 1200px;
     text-align: center;
     padding-top: 100px;
-    vertical-align: middle;
-    display:flex; 
-    flex-direction:column; 
-    justify-content:center;
+   margin: auto;
+   width: 50%;
+   background-color: rgb(140, 216, 237);
+   color: black;
+   margin-top: 50px;
+    
 
 
 }
