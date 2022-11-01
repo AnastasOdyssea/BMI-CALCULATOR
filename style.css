@@ -16,4 +16,5 @@ body{
 }
 #age,#height,#weight{
 height: 30px;
+width:100px;
 }
