@@ -5,7 +5,13 @@ const calculate = getElementById('calculate');
 console.log("age");
 
 function result(weight,height) {
-    var bmi = weight/(Math.pow(height,2));
+    var bmi ;
+    bmi = weight/(Math.pow(height,2));
     return bmi;
  
+}
+
+function message() {
+    
+
 }
