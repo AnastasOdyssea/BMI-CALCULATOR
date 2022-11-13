@@ -1,17 +1,35 @@
-const age = getElementById('age') ;
-const height = getElementById('height');
-const weight = getElementById('weight');
-const calculate = getElementById('calculate');
-console.log("age");
 
-function result(weight,height) {
-    var bmi ;
+var weight;
+var height;
+var bmi ;
+var measure;
+
+
+function number() {
+    height = document.getElementById("height").value;
+    weight = document.getElementById("weight").value;
     bmi = weight/(Math.pow(height,2));
-    return bmi;
+    measure = "Your BMI is " + bmi ;
+
+    
+   
+    if (weight === 0 ) {
+		document.getElementById("results").innerHTML = error;
+	} else if (height === 0){
+		document.getElementById("results").innerHTML = error;
+	}
+	 else {
+
+		document.getElementById("results").innerHTML = measure;
+	}
+	
+ 
  
 }
 
-function message() {
+
+   
+        
     
 
-}
+
