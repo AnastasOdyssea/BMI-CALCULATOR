@@ -6,3 +6,7 @@ The type that is used for the calculation of BMI is weight/(height * height)
 
 ## TECHNOLOGIES USED
 In this project I the technologies that i used are HTML5 , CSS and JavaScript.
+
+## WHERE YOU CAN FIND IT ?
+
+The site is live at https://anastasodyssea.github.io/BMI-CALCULATOR/.
