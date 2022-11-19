@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <h1>BMI CALCULATOR</h1>
 
     <form action="" class="form-example">
         <div class="form-example">
@@ -18,16 +19,17 @@
         </div> <br>
         <div class="form-example">
             <label for="height">Height : </label>
-            <input type="text" name="height" id="height" required>
+            <input type="text" name="height" id="height" required><span>m</span>
+
         </div> <br>
         <div class="form-example">
             <label for="weight">Weight : </label>
-            <input type="text" name="weight" id="weight" required>
+            <input type="text" name="weight" id="weight" required><span>kg</span>
         </div><br>
 
         <div class="form-example">
-            <button type="button" class="calculate" id="calculate" onclick="number()">Calculate</button>
-            <div id="results" class="text-center">Your BMI results will appear here</div>
+            <button type="button" class="calculate" id="calculate" onclick="number()">Calculate</button><br><br>
+            <div id="results" class="text-center"> BMI</div>
         </div>
     </form>
     <script src="index.js"></script>

@@ -1,5 +1,4 @@
 body{
-    
     border: 1px black solid;
     border-radius: 10px;
     height: 300px;
@@ -10,11 +9,20 @@ body{
    background-color: rgb(140, 216, 237);
    color: black;
    margin-top: 50px;
-    
-
-
+    }
+h1{
+  
+ margin-top: 0px;
 }
 #age,#height,#weight{
 height: 30px;
 width:100px;
+}
+
+#calculate{
+ margin-left:50px;
+}
+
+#results{
+   margin-left: 50px;
 }

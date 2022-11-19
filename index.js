@@ -2,30 +2,25 @@
 var weight;
 var height;
 var bmi ;
-var measure;
-
-
+var calculate;
 function number() {
     height = document.getElementById("height").value;
     weight = document.getElementById("weight").value;
     bmi = weight/(Math.pow(height,2));
-    measure = "Your BMI is " + bmi ;
-
-    
+    calculate = "Your BMI is " + bmi ;
+	document.getElementById("results").innerHTML = calculate; 
+	if (weight < 0) {
+		document.getElementById("results").innerHTML = "No negative values ";
+	}
+    if (height < 0) {
+		document.getElementById("results").innerHTML = "No negative values ";
+	}
+}
    
-    if (weight === 0 ) {
-		document.getElementById("results").innerHTML = error;
-	} else if (height === 0){
-		document.getElementById("results").innerHTML = error;
-	}
-	 else {
-
-		document.getElementById("results").innerHTML = measure;
-	}
 	
  
  
-}
+
 
 
    
